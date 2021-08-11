@@ -1,0 +1,49 @@
+
+body{
+  margin: 0px;
+  padding: 0px;
+  width:100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+p{
+  margin: 0px;
+  padding: 0px;
+
+}
+.footer_in_place{
+  width: 100vw;
+  background-color:#005877 ;
+  
+  height: 30px;
+  color: wheat;
+  text-align: center;
+  margin-top: auto;
+  line-height: 30px ;
+}
+.fixed{
+  width: 100%;
+  position: fixed;
+  top:0px;
+  color: white;
+  z-index:5;
+}
+.radius{
+  border-radius:20px ;
+}
+.aboutPage{
+  margin-top: 100px ;
+  background-image: url('./great-india.jpg');
+  background-size: cover;
+  height: 500px; 
+  
+}
+.footerDiv{
+  width: 100%;
+  height: 200px; 
+  background-color: #005877;
+  /* background-color:black; */
+  margin-top: auto;
+  color: white;
+}
